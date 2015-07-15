@@ -7,5 +7,3 @@ if [ $(free -m | grep -i swap | awk '{print $2}' ) == 0 ]; then
     swapon /swapfile
     echo "/swapfile none swap sw 0 0" >> /etc/fstab
 fi
-
-ln -sf /usr/share/zoneinfo/Asia/Nicosia /etc/localtime

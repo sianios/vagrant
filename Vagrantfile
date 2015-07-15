@@ -1,6 +1,10 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
+$zoneinfo = <<SCRIPT
+ln -sf /usr/share/zoneinfo/Asia/Nicosia /etc/localtime
+SCRIPT
+
 Vagrant.configure("2") do |config|
 
   config.vm.box = "ubuntu/trusty64"
@@ -11,6 +15,6 @@ Vagrant.configure("2") do |config|
     vb.customize ["modifyvm", :id, "--memory", "2048", "--cpus", "2"]
   end
   config.vm.hostname = "trusty64"
-  #config.vm.provision "shell", path: "base.sh"
+  config.vm.provision "shell", inline: $zoneinfo
 
 end
