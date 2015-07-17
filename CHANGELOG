@@ -1,2 +1,6 @@
 July 15, 2015
 - Disabled script base.sh provision, provision changed to only set new zoneinfo
+
+July 17, 2015
+- Merged Debian branch to master and added config.vm.box for Debian
+  Jessie amd64 in master branch
