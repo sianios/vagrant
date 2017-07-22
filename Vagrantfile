@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
   config.vm.provider "libvirt" do |vb|
       vb.memory = 2048
       vb.cpus = 2
-      vb.storage :file, :size => '20G'
+      vb.storage :file, :size => '20G' #default size is 10GB
   end
   
   config.vm.hostname = "jessie64"
