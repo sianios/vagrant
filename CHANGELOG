@@ -4,3 +4,7 @@ July 15, 2015
 July 17, 2015
 - Merged Debian branch to master and added config.vm.box for Debian
   Jessie amd64 in master branch
+
+July 22, 2017
+- Pushed the new Vagrantfile with new configurations for KVM and also
+  some instructions.
