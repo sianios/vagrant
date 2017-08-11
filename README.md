@@ -1,8 +1,8 @@
 After years of using VirtualBox (VB) I decided to switch to KVM. In this
 repository I keep my Vagrant file.
 
-To use Vagrant with KVM on Debian
-=================================
+To convert any Vagrant VB box to KVM on Debian
+==============================================
 
 Required packages:
 ------------------

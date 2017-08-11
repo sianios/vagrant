@@ -8,3 +8,6 @@ July 17, 2015
 July 22, 2017
 - Pushed the new Vagrantfile with new configurations for KVM and also
   some instructions.
+
+August 11, 2017
+- Debian Stretch v9.1.0 is now available and also in libvirt
